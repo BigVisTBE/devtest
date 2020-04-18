@@ -2,7 +2,7 @@
 param (
     [Parameter()]
     [string[]]
-    $Name
+    $Name = "Xorg"
 )
 
 Get-Process -name $Name
