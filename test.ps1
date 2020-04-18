@@ -2,7 +2,7 @@
 param (
     [Parameter()]
     [string[]]
-    $Name = "Xorg"
+    $Name = "svchost"
 )
 
 Get-Process -name $Name
